@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80vw;
+    background-color: #ae3ae5;
+}
+.card{
+    width:30%; 
+    margin: 0.5em;
+    background-color: #00925a;
+    border: 3px solid red;
+   
+}
+@media (max-width: 599px) { .card{width: 95%;} }
+@media (min-width: 600px) { .card{width: 95%;} }
+@media (min-width: 900px) { .card{width: 45%;} }
+@media (min-width: 1200px) { .card{ width:30%;} }
+
+  

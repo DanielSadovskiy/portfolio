@@ -1,0 +1,596 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    touch-action: none;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.start-page {
+    transition: all 3s;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
+}
+
+#particles-js {
+    height: 100vh;
+    background: black;
+}
+
+#preloader {
+    position: absolute;
+    left: 7%;
+    width: 86%;
+    top: 40vh;
+    /* transform: translate(-50%,-50%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:; */
+    animation: fill-white 0.8s ease forwards 6s;
+    -webkit-animation: fill-white 0.8s ease forwards 6s;
+}
+
+#path-1-outside-1 {
+    animation: fill-white 0.8s ease forwards 6.5s;
+    -webkit-animation: fill-white 0.8s ease forwards 6.5s;
+}
+
+#preloader path:nth-child(2) {
+    stroke-dasharray: 669.00;
+    stroke-dashoffset: 669.00;
+    animation: line-anim 2s linear forwards, final-anim 0.005s linear forwards 1.15s, fill-white 0.5s linear forwards 6.5s;
+    -webkit-animation: line-anim 2s linear forwards, final-anim 0.005s linear forwards 1.15s, fill-white 0.5s linear forwards 6.5s;
+}
+
+#preloader path:nth-child(3) {
+    stroke-dasharray: 451.58;
+    stroke-dashoffset: 451.58;
+    animation: line-anim 2s ease forwards 0.3s, fill-white 0.5s linear forwards 6.7s;
+    -webkit-animation: line-anim 2s ease forwards 0.3s, fill-white 0.5s linear forwards 6.7s;
+}
+
+#preloader path:nth-child(4) {
+    stroke-dasharray: 483;
+    stroke-dashoffset: 483;
+    animation: line-anim 2s ease forwards 0.6s, final-anim 0.005s linear forwards 2.3s, fill-white 0.5s linear forwards 6.9s;
+    -webkit-animation: line-anim 2s ease forwards 0.6s, final-anim 0.005s linear forwards 2.3s, fill-white 0.5s linear forwards 6.9s;
+}
+
+#preloader path:nth-child(5) {
+    stroke-dasharray: 276.22;
+    stroke-dashoffset: 276.22;
+    animation: line-anim 3s ease forwards 0.9s, final-anim 0.005s linear forwards 2.4s, fill-white 0.5s linear forwards 7.1s;
+    -webkit-animation: line-anim 3s ease forwards 0.9s, final-anim 0.005s linear forwards 2.4s, fill-white 0.5s linear forwards 7.1s;
+}
+
+#preloader path:nth-child(6) {
+    stroke-dasharray: 437.61;
+    stroke-dashoffset: 437.61;
+    animation: line-anim 2s ease forwards 1.2s, fill-white 0.5s linear forwards 7.3s;
+    -webkit-animation: line-anim 2s ease forwards 1.2s, fill-white 0.5s linear forwards 7.3s;
+}
+
+#preloader path:nth-child(7) {
+    stroke-dasharray: 297.7659;
+    stroke-dashoffset: 297.7659;
+    animation: line-anim 2s ease forwards 1.5s, final-anim 0.005s linear forwards 3.3s, fill-white 0.5s linear forwards 7.5s;
+    -webkit-animation: line-anim 2s ease forwards 1.5s, final-anim 0.005s linear forwards 3.3s, fill-white 0.5s linear forwards 7.5s;
+}
+
+#preloader path:nth-child(8) {
+    stroke-dasharray: 576.5916;
+    stroke-dashoffset: 576.5916;
+    animation: line-anim 2s ease forwards 1.8s, final-anim 0.005s linear forwards 3.8s, fill-white 0.5s linear forwards 7.7s;
+    -webkit-animation: line-anim 2s ease forwards 1.8s, final-anim 0.005s linear forwards 3.8s, fill-white 0.5s linear forwards 7.7s;
+}
+
+#preloader path:nth-child(9) {
+    stroke-dasharray: 451.58;
+    stroke-dashoffset: 451.58;
+    animation: line-anim 2s ease forwards 2.1s, fill-white 0.5s linear forwards 7.9s;
+    -webkit-animation: line-anim 2s ease forwards 2.1s, fill-white 0.5s linear forwards 7.9s;
+}
+
+#preloader path:nth-child(10) {
+    stroke-dasharray: 498.48;
+    stroke-dashoffset: 498.48;
+    animation: line-anim 2s ease forwards 2.4s, fill-white 0.5s linear forwards 8.1s;
+    -webkit-animation: line-anim 2s ease forwards 2.4s, fill-white 0.5s linear forwards 8.1s;
+}
+
+#preloader path:nth-child(11) {
+    stroke-dasharray: 398.18;
+    stroke-dashoffset: 398.18;
+    animation: line-anim 2s ease forwards 2.7s, fill-white 0.5s linear forwards 8.3s;
+    -webkit-animation: line-anim 2s ease forwards 2.7s, fill-white 0.5s linear forwards 8.3s;
+}
+
+#preloader path:nth-child(12) {
+    stroke-dasharray: 410.32;
+    stroke-dashoffset: 410.32;
+    animation: line-anim 2s ease forwards 3s, final-anim 0.008s linear forwards 4.8s, fill-white 0.5s linear forwards 8.5s;
+    -webkit-animation: line-anim 2s ease forwards 3s, final-anim 0.008s linear forwards 4.8s, fill-white 0.5s linear forwards 8.5s;
+}
+
+#preloader path:nth-child(13) {
+    stroke-dasharray: 442.03;
+    stroke-dashoffset: 442.03;
+    animation: line-anim 2s ease forwards 3.3s, final-anim 0.005s linear forwards 5.2s, fill-white 0.5s linear forwards 8.7s;
+    -webkit-animation: line-anim 2s ease forwards 3.3s, final-anim 0.005s linear forwards 5.2s, fill-white 0.5s linear forwards 8.7s;
+}
+
+#preloader path:nth-child(14) {
+    stroke-dasharray: 553.59;
+    stroke-dashoffset: 553.59;
+    animation: line-anim 2s ease forwards 3.6s, final-anim 0.005s linear forwards 5.5s, fill-white 0.5s linear forwards 8.9s;
+    -webkit-animation: line-anim 2s ease forwards 3.6s, final-anim 0.005s linear forwards 5.5s, fill-white 0.5s linear forwards 8.9s;
+}
+
+#preloader path:nth-child(15) {
+    stroke-dasharray: 276.21;
+    stroke-dashoffset: 276.21;
+    animation: line-anim 2s ease forwards 3.9s, final-anim 0.005s linear forwards 5.3s, fill-white 0.5s linear forwards 9.1s;
+    -webkit-animation: line-anim 2s ease forwards 3.9s, final-anim 0.005s linear forwards 5.3s, fill-white 0.5s linear forwards 9.1s;
+}
+
+#preloader path:nth-child(16) {
+    stroke-dasharray: 502.48;
+    stroke-dashoffset: 502.48;
+    animation: line-anim 2s ease forwards 4.2s, final-anim 0.005s linear forwards 6s, fill-white 0.5s linear forwards 9.3s;
+    -webkit-animation: line-anim 2s ease forwards 4.2s, final-anim 0.005s linear forwards 6s, fill-white 0.5s linear forwards 9.3s;
+}
+
+.preload-btn {
+    position: absolute;
+    display: block;
+    z-index: -1;
+    text-align: center;
+    letter-spacing: 6px;
+    color: red;
+    line-height: 30px;
+    font-size: 30px;
+    left: 40%;
+    height: 8%;
+    width: 20%;
+    top: 75%;
+    background-color: transparent;
+    animation: fadeIn 2s linear forwards 10s, pulsate 2s infinite 12s;
+    -webkit-animation: fadeIn s linear forwards 10s, pulsate 2s infinite 12s;
+    transition: all 3s ease;
+    opacity: 0;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+}
+
+.preload-btn:hover {
+    cursor: pointer;
+}
+
+.preload-btn:focus {
+    outline: none;
+}
+
+/* .zoomedOut {
+    animation: zoomOut 4s linear 1s;
+    -webkit-animation: zoomOut 4s linear 1s;
+} */
+
+.content {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    opacity: 0;
+    background-color: white;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.content-text {
+    top: 10vh;
+    left: 15%;
+    opacity: 0;
+    color: #fff;
+    transform: translateY(500px);
+    transition: all 0.5s 0.5s;
+    -webkit-transform: translateY(500px);
+    -moz-transform: translateY(500px);
+    -ms-transform: translateY(500px);
+    -o-transform: translateY(500px);
+    -webkit-transition: all 0.5s 0.5s;
+    -moz-transition: all 0.5s 0.5s;
+    -ms-transition: all 0.5s 0.5s;
+    -o-transition: all 0.5s 0.5s;
+}
+
+.content-text h3:nth-child(1)::before {
+    content: "< "
+}
+
+.content-text h3:nth-child(1)::after {
+    content: " >";
+}
+
+.content-text h3:nth-child(3)::before {
+    content: "< "
+}
+
+.content-text h3:nth-child(3)::after {
+    content: " />";
+}
+
+.content-text.show {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s 0.5s;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    -webkit-transition: all 0.5s 0.5s;
+    -moz-transition: all 0.5s 0.5s;
+    -ms-transition: all 0.5s 0.5s;
+    -o-transition: all 0.5s 0.5s;
+}
+.content-text.hide-top{
+    opacity: 0;
+    transition: all 0.5s 0s;
+    transform: translateY(70vh);
+    -webkit-transform: translateY(70vh);
+    -moz-transform: translateY(70vh);
+    -ms-transform: translateY(70vh);
+    -o-transform: translateY(70vh);
+    -webkit-transition: all 0.5s 0s;
+    -moz-transition: all 0.5s 0s;
+    -ms-transition: all 0.5s 0s;
+    -o-transition: all 0.5s 0s;
+}
+
+.content-text h3 {
+    position: absolute;
+    font-family: 'Indie Flower', cursive;
+    top: 10vh;
+    left: 10%;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.content-text h3:nth-child(3) {
+    top: 90vh;
+}
+
+.content-text div {
+    position: absolute;
+    top: 15vh;
+    min-height: 74vh;
+    left: 15%;
+    width: 72%;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.content-navigation {
+    position: fixed;
+    top: 40%;
+    right: 3%;
+    width: 26px;
+    height: 90px;
+}
+
+.content-navigation li {
+    text-align: right;
+    display: block;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    width: 14px;
+    height: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.content-navigation li a span:nth-child(2) {
+    border-radius: 50%;
+    display: block;
+    background-color: #fff;
+    width: 5px;
+    height: 5px;
+}
+
+.content-navigation li a span:nth-child(1) {
+    display: none;
+    width: 5%;
+}
+
+.content-navigation li:hover a span:nth-child(1) {
+    position: absolute;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 0 0 -80px;
+}
+
+.content-navigation li:hover a span:nth-child(2) {
+    margin: 0 0 0 -2px;
+    width: 10px;
+    height: 10px;
+}
+
+.content-navigation li.active a span:nth-child(2) {
+    margin: -5px 0 0 -4px;
+    width: 14px;
+    height: 14px;
+}
+
+.content section {
+    height: 100vh;
+}
+
+.content section {
+    background-color: #000;
+}
+
+.nav {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 10%;
+}
+
+.nav button {
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.technologies-gallery {
+    height: 50vh !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14vw, 20%));
+    grid-template-rows: repeat(auto-fill, minmax(20%, 20%));
+    grid-gap: 5%;
+}
+
+.technologies-gallery figure {
+    width: 100%;
+    height: 100%;
+}
+
+.technologies-gallery figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-form-block {
+    margin-top: 25vh;
+    width: 800px;
+}
+
+.contact-form-block>p {
+    position: absolute;
+}
+
+.contact-text:nth-child(1) {
+    margin-top: -20vh;
+}
+
+.contact-text:nth-child(2) {
+    margin-top: -10vh;
+}
+
+.contact-text:nth-child(1) i {
+    font-style: italic;
+    border-bottom: 1px solid #c22085;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+#contact-form p {
+    margin-bottom: 7vh;
+}
+#content-about-text{
+    line-height: 22px;
+    font-size: 22px;
+    height: 60px
+}
+#contact-form label {
+    position: absolute;
+    margin-bottom: -24px;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'inconsolata', monospace;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+label.focused {
+    color: #c22085 !important;
+    font-size: 14px !important;
+    margin-top: -20px !important;
+}
+
+#contact-form input, textarea {
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    min-height: 26px;
+    max-height: 90px;
+    font-family: inconsolata, monospace;
+    border: 0;
+    color: #fff;
+    border-bottom: 1px solid #c22085;
+    outline: 0;
+    width: 80%;
+    background-color: transparent;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+#contact-form textarea {
+    font-family: 'inconsolata', monospace;
+    font-size: 24px;
+    color: #fff;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #c22085;
+    width: 80%;
+    overflow-y: scroll;
+    vertical-align: top;
+    resize: vertical;
+}
+#love-js{
+    display: block;
+    position: absolute;
+    margin-right: -500px;
+    width: 100%;
+    height:315px;
+}
+
+#contact-form input[type='submit'] {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 0.5vh;
+    z-index: 10;
+    border-bottom: none;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+}
+
+#contact-form svg:hover {
+    
+}
+
+@keyframes zoomOut {
+    from {}
+    50% {
+        transform: scale3d(0.4, 0.4, 0.4);
+        -webkit-transform: scale3d(0.4, 0.4, 0.4);
+        -moz-transform: scale3d(0.4, 0.4, 0.4);
+        -ms-transform: scale3d(0.4, 0.4, 0.4);
+        -o-transform: scale3d(0.4, 0.4, 0.4);
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    to {
+        z-index: 2;
+        opacity: 0.3;
+    }
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+
+@keyframes final-anim {
+    100% {
+        stroke-dasharray: 0;
+    }
+}
+
+@keyframes line-anim {
+    100% {
+        stroke: red;
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill-white {
+    to {
+        stroke-width: 5;
+        fill: white;
+    }
+}
